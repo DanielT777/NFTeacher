@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { Link } from 'react-router-dom'
+
 import Navbar from "./Components/Navbar";
 
 import heroTeacher from "./assets/teacher.jpg";
@@ -25,19 +27,23 @@ function App() {
                     <div className="mt-[25vh] bg-[url('./assets/transaction.png')] w-[15vw] h-[25vw] bg-cover bg-right hover:bg-center transition-all duration-300" />
                 </div>
             </section>
-            <div className="ml-[20vw] flex justify-between w-[50vw]">
-                <button
+            <div className="flex justify-center gap-20 w-[100vw]">
+                <Link
+                    to="/student"
+                    htmlFor="button"
                     type="button"
                     className="rounded-lg bg-green px-6 py-1 h-[fit-content] text-[4vh]"
                 >
                     Become a student 🧑‍🎓
-                </button>
-                <button
+                </Link>
+                <Link
+                    to="/teacher"
+                    htmlFor="button"
                     type="button"
                     className=" rounded-lg bg-green px-6 py-1 h-[fit-content] text-[4vh]"
                 >
                     Become a Teacher 👨‍🏫
-                </button>
+                </Link>
             </div>
             <hr className="my-[100px] mx-auto w-[90vw]" />
             <section className="mx-auto w-[90vw]">

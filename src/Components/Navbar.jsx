@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <nav className="flex justify-center items-center">
             <div className="flex justify-between items-center w-[90%] py-5">
-                <img src={Logo} alt="logo" />
+                <img className="w-[100px]" src={Logo} alt="logo" />
                 <ul className="flex justify-between items-center gap-[100px]">
                     <li>
                         <a href="#" className="font-light text-xl">Learn to earn ?</a>
