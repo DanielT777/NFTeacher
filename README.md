@@ -1,5 +1,5 @@
 # Problème
-###Quel problème votre projet résout-il ? 
+Quel problème votre projet résout-il ? 
 L'éducation n'est pas toujours disponible et gratuite pour tou.te.s.
 
 Comment s'inscrit-il dans le thème "Construire un avenir décentralisé" ?
