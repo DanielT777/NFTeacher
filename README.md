@@ -19,14 +19,14 @@ Le plus grand défi a été pour nous d'apprendre le web 3 et son écosystème, 
 *Expliquez, étape par étape, comment quelqu'un peut installer votre projet et l’utiliser Le jury utilisera principalement MacOS, Ubuntu, Android et iOS. Mettre en place un docker / docker-compose est une bonne idée pour permettre à quelqu'un de tester facilement le projet.*
 
 # Télécharger le repo
-Télécharger le repo et le dézipper, le repo s'appelle NFTeacher-main
+Télécharger le repo et le dézipper, le repo s'appelle NFTeacher-main.
 
 # Installation
-Se rendre à la racine du repo et effectuer la commande npm install dans un terminal
+Se rendre à la racine du repo et effectuer la commande npm install dans un terminal.
 
 # Lancer
-Toujours à la racine du repo effectuer la commande npm start et une page s'ouvrira automatiquement dans votre navigateur
-⚠️ Si la page ne s'ouvre pas automatiquement vous pouvez essayer de taper localhost:3000 dans la barre d'URL de votre navigateur
+Toujours à la racine du repo effectuer la commande npm start et une page s'ouvrira automatiquement dans votre navigateur.
+⚠️ Si la page ne s'ouvre pas automatiquement vous pouvez essayer de taper localhost:3000 dans la barre d'URL de votre navigateur.
 
 # Tester
 Vous pouvez maintenant vous connecter à l'aide d'un compte MetaMask et continuer la navigation via les boutons "become a student" ou "become a teacher", vous pourrez ensuite tester la génération de votre NFT.
