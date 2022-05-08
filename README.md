@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## Problème
+Quel problème votre projet résout-il ? 
+L'éducation n'est pas toujours disponible et gratuite pour tou.te.s.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Comment s'inscrit-il dans le thème "Construire un avenir décentralisé" ?
+Les utilisateurs pourront étudier et enseigner de manière libre et anonyme. De plus nous rémunérons les étudiants via des récompenses NFTs et les enseignants via les royalties générées par les NFTs.
 
-## Available Scripts
+## Solution
+Comment avez-vous résolu ce problème ?
+Notre projet rend l'éducation disponible et gratuite à tout le monde de manière anonyme.
 
-In the project directory, you can run:
+Quelles technologies avez-vous utilisées ?
+Nous avons utilisé du ReactJs pour l'interface web ainsi que l'API Starton pour générer et déployer les NFTs.
 
-### `npm start`
+Quel a été le plus grand défi technique, comment votre solution le résout-elle ?
+Le plus grand défi a été pour nous d'apprendre le web 3 et son écosystème, comme générer et déployer les NFTs. Mais nous avons réussi grâce à l'API Starton et sa documentation ainsi qu'à l'aide fournis par les encadrants du hackathon.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+*Expliquez, étape par étape, comment quelqu'un peut installer votre projet et l’utiliser Le jury utilisera principalement MacOS, Ubuntu, Android et iOS. Mettre en place un docker / docker-compose est une bonne idée pour permettre à quelqu'un de tester facilement le projet.*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Télécharger le repo
+Télécharger le repo et le dézipper, le repo s'appelle NFTeacher-main
 
-### `npm test`
+# Installation
+Se rendre à la racine du repo et effectuer la commande npm install dans un terminal
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Lancer
+Toujours à la racine du repo effectuer la commande npm start et une page s'ouvrira automatiquement dans votre navigateur
+⚠️ Si la page ne s'ouvre pas automatiquement vous pouvez essayer de taper localhost:3000 dans la barre d'URL de votre navigateur
 
-### `npm run build`
+# Tester
+Vous pouvez maintenant vous connecter à l'aide d'un compte MetaMask et continuer la navigation via les boutons "become a student" ou "become a teacher", vous pourrez ensuite tester la génération de votre NFT.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Équipe et commentaires
+Précisez le nom de votre équipe (le même que sur le discord), et dites-nous ce que vous avez appris durant ce hackathon !
+Nous sommes l'équipe Lyon3.0 et nous avons appris différentes nouvelles technologies selon les personnes du groupe notamment le ReactJs, les call API, la génération et le déploiement de NFTs ainsi que des connaissances approfondies de ce qu'est le Web 3.0 et la décentralisation.
