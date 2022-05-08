@@ -28,6 +28,8 @@ Se rendre à la racine du repo et effectuer la commande npm install dans un term
 Toujours à la racine du repo effectuer la commande npm start et une page s'ouvrira automatiquement dans votre navigateur.
 ⚠️ Si la page ne s'ouvre pas automatiquement vous pouvez essayer de taper localhost:3000 dans la barre d'URL de votre navigateur.
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/72013017/167300783-fefe4ad5-ac25-4f0d-a289-52759bbafb25.gif)
+
 ### Tester
 Vous pouvez maintenant vous connecter à l'aide d'un compte MetaMask et continuer la navigation via les boutons "become a student" ou "become a teacher", vous pourrez ensuite tester la génération de votre NFT.
 
