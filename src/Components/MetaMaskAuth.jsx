@@ -13,7 +13,7 @@ async function connect(onConnected) {
     const accounts = await window.ethereum.request({
         method: "eth_requestAccounts",
     });
-    window.localStorage.setItem("walletAddress", accounts[0])
+    sessionStorage.setItem("walletAddress", accounts[0])
     onConnected(accounts[0]);
 }
 
