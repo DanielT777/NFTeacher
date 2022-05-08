@@ -13,7 +13,7 @@ async function connect(onConnected) {
     const accounts = await window.ethereum.request({
         method: "eth_requestAccounts",
     });
-
+    window.localStorage.setItem("walletAddress", accounts[0])
     onConnected(accounts[0]);
 }
 
@@ -47,7 +47,7 @@ export default function MetaMaskAuth({ onAddressChanged }) {
     }, [userAddress]);
 
     return userAddress ? (
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
             Connected with{" "}
             <Address userAddress={userAddress} setUserAddress={setUserAddress} />
         </div>
@@ -80,10 +80,10 @@ function Connect({ setUserAddress }) {
     );
 }
 
-function Address({ userAddress, setUserAddress }) {
+function Address({ userAddress }) {
     return (
         <span className="rounded-lg bg-green px-6 py-1 h-[fit-content]">
-            {userAddress}
+            {userAddress.substring(0, 5)}…{userAddress.substring(userAddress.length - 4)}
         </span>
     );
 }

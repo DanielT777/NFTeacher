@@ -11,16 +11,16 @@ const Navbar = () => {
                 <img className="w-[100px]" src={Logo} alt="logo" />
                 <ul className="flex justify-between items-center gap-[100px]">
                     <li>
-                        <a href="#" className="font-light text-xl">Learn to earn ?</a>
+                        <a href="#lte" className="font-light text-xl">Learn to earn ?</a>
                     </li>
                     <li>
-                        <a href="#" className="font-light text-xl">NFT</a>
+                        <a href="#nft" className="font-light text-xl">NFT</a>
                     </li>
                     <li>
-                        <a href="#" className="font-light text-xl">Learners</a>
+                        <a href="#learner" className="font-light text-xl">Learners</a>
                     </li>
                     <li>
-                        <a href="#" className="font-light text-xl">Teachers</a>
+                        <a href="#teacher" className="font-light text-xl">Teachers</a>
                     </li>
                 </ul>
                 <span>
