@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 
 import Navbar from "./Components/Navbar";
 
-import heroTeacher from "./assets/teacher.jpg";
-import heroStudent from "./assets/student.jpg";
-import heroTransaction from "./assets/transaction.png";
-
 function App() {
     return (
         <>
