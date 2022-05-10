@@ -4,6 +4,8 @@ import axios from "axios";
 import SVG from "react-inlinesvg";
 import { Buffer } from "buffer";
 
+import profilePicture from '../assets/profile_nft.png'
+
 const Teacher = () => {
     const [login, setLogin] = useState(
         sessionStorage.getItem("walletAddress") ? true : false
@@ -125,42 +127,68 @@ const Teacher = () => {
     };
 
     return (
-        <main className="h-[100vh] flex justify-center items-center">
+        <main className="min-h-[100vh] flex flex-col justify-center items-center">
             <span className="absolute top-5 left-5 text-[24px] font-bold">
                 <Link to="/">
                     <i className="fa fa-chevron-left" aria-hidden="true"></i> Retour
                 </Link>
             </span>
             <span className="absolute ml-auto top-7 text-[24px] font-bold">
-                Teacher 🧑‍🎓
+                Teacher 👨‍🏫
             </span>
-            <div className="flex flex-col justify-center items-center gap-4">
-                {login ? (
-                    <div className="flex flex-col justify-center items-center">
+            <div className="w-[80vw]">
+                <article className="flex justify-around items-center">
+                    <p className="p-10 text-2xl"> People who have knowledge and would like to share it can register as
+                            teachers. All you have to do is log in with a MetaMask account. You
+                            will be paid according to the royalties that the NFTs delivered
+                            during your series of courses generate. Just like learners, teachers
+                            unlock NFTs based on learners' reviews and the hours they teach.
+                            Teachers' NFTs give access to conferences, talks or invitations to
+                            private parties. They can also be sold.
+                    </p>
+                    <div className="bg-[url('./assets/teacher.jpg')] w-[50vw] h-[30vw] bg-cover bg-center hover:bg-right transition-all duration-300" />
+                </article>
+            </div>
+            <hr className="my-[100px] mx-auto w-[90vw]" />
+            <div className="w-[80vw]">
+                <article className="flex justify-around items-center">
+                    <p>At first you will receive an NFT representing your profile.
+                    Then you can offer a course with a quiz associated with it, the students participating in it will get an NFT that they can then resell to other students, transactions on which you receive royalties</p>
+                    <figure>
+                        <img src={profilePicture}
+                            alt="nft profile example" />
+                        <figcaption>Example of your own NFT</figcaption>
+                    </figure>
+                </article>
+            </div>
+            <hr className="my-[100px] mx-auto w-[90vw]" />
+            <div className="flex flex-col justify-center items-center gap-4 mb-10">
+                {login ? (!asked ?
+                    (<div className="flex flex-col justify-center items-center">
                         <button
                             onClick={handleGeneration}
                             type="button"
-                            className=" rounded-lg bg-green px-6 py-1 h-[fit-content] text-[4vh] "
+                            className=" rounded-lg bg-green px-6 py-1 h-[fit-content] text-[4vh]"
                         >
-                            Generate my NFT 🚀
+                            Join the adventure 🚀
                         </button>
-                    </div>
+                    </div>) : null
                 ) : (
-                    <span>
+                    <span className="text-center">
                         <h1>Please login first </h1>
-                        {<Link to="/">Go to login</Link>}
+                        {<Link to="/" className="underline text-blue-500">Go to login</Link>}
                     </span>
                 )}
                 {asked ? (
-                    login ? (
-                    <h1>Loading...</h1>) : <div className="border-2 p-4 border-black">
-                    <h1>
-                        Here is your NFT ({<Link to="/learnmore">learn more about it</Link>}):
-                    </h1>
-                    <div>
-                        <SVG className="w-[20vw]" src={NFTImage} />
+                    loading ? (
+                        <h1 className="text-bold">Loading...</h1>) : <div className="border-2 p-4 border-black">
+                        <h1>
+                            Here is your NFT ({<Link to="/learnmore" className="underline text-blue-500">learn more about it</Link>}):
+                        </h1>
+                        <div>
+                            <SVG className="w-[20vw]" src={NFTImage} />
+                        </div>
                     </div>
-                </div>
                 ) : (null)}
             </div>
         </main>
