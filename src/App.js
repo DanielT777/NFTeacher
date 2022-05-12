@@ -60,13 +60,9 @@ function App() {
                     <article className="flex flex-col">
                         <h1 className="text-[92px]">Non fongible tokens</h1>
                         <p>
-                            Anyone can become a learner. Just create an account by logging in to
-                            a MetaMask account and you will have access to the courses offered
-                            by our teachers. The series of courses in which you participate will
-                            lead you to a final test. Passing this test is mandatory to obtain
-                            the NFT and access to the more premium course series. There are 4
-                            different categories of NFTs: iron, bronze, silver and gold. Each of
-                            these categories offers you more or less benefits.{" "}
+                            You can earn NFTs by participating in courses and passing tests. NFTs give you access to more premium courses, conferences, talks or invitations to private parties.
+
+                            NFTs can be sold, which means you will have to retake the preliminary tests to earn new NFTs. Please note that the NFTs you earn give you access to the courses of the category the NFTs belong to.
                         </p>
                     </article>
                 </section>
